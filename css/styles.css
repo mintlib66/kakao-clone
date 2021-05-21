@@ -3,13 +3,17 @@
 
 /* Components */
 @import "Components/status-bar.css";
+@import "Components/screen-header.css";
 @import "Components/nav-bar.css";
+@import "Components/user-component.css";
 
 /* Screens */
 @import "Screens/login.css";
+@import "Screens/friends.css";
 
 body {
   height: 120vh;
+  color: #2e363e;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
