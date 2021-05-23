@@ -23,3 +23,18 @@
   margin-top: 3px;
   font-size: 14px;
 }
+
+.settings__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+.settings__item i {
+  margin-right: 10px;
+}
+.settings__item-column:last-child {
+  opacity: 0.5;
+}
