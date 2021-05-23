@@ -11,6 +11,7 @@
 /* Screens */
 @import "Screens/login.css";
 @import "Screens/friends.css";
+@import "Screens/find.css";
 
 body {
   height: 120vh;
