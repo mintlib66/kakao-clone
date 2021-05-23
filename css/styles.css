@@ -7,11 +7,13 @@
 @import "Components/nav-bar.css";
 @import "Components/user-component.css";
 @import "Components/badge.css";
+@import "Components/icon-rows.css";
 
 /* Screens */
 @import "Screens/login.css";
 @import "Screens/friends.css";
 @import "Screens/find.css";
+@import "Screens/more.css";
 
 body {
   height: 120vh;
