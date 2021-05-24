@@ -11,6 +11,9 @@
   margin: 10px 0;
   width: 25%;
 }
+.icon-row__icon:hover span {
+  font-weight: 600;
+}
 .icon-row__icon i {
   font-size: 32px;
 }

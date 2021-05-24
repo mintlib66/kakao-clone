@@ -1,5 +1,9 @@
 .user-component {
   justify-content: space-between;
+  padding: 10px;
+}
+.user-component:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .user-component,
 .user-component__column:first-child {

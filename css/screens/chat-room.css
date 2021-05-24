@@ -23,12 +23,12 @@
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  animation: fadein-message 0.5s linear;
 }
 .chat-room__timestamp {
   display: flex;
   justify-content: center;
   margin-bottom: 25px;
+  animation: fadein-message 0.5s linear forwards;
 }
 .chat-room__timestamp span {
   padding: 5px 10px;
@@ -42,6 +42,14 @@
   display: flex;
   width: 100%;
   margin-bottom: 20px;
+}
+.message-row:nth-child(2) {
+  opacity: 0;
+  animation: fadein-message 0.5s 0.5s linear forwards;
+}
+.message-row:nth-child(3) {
+  opacity: 0;
+  animation: fadein-message 0.5s 1s linear forwards;
 }
 .message-row img {
   margin-right: 10px;

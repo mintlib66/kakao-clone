@@ -25,3 +25,21 @@
 .screen-header__icons .fa-cog:hover {
   animation: rotate-cog 2s linear infinite;
 }
+
+.screen-header__icons .fa-search:hover,
+.screen-header__icons .fa-comment-medical:hover {
+  transform: scale(1.1);
+}
+
+@keyframes translate-music {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.screen-header__icons .fa-music:hover {
+  animation: translate-music 1s ease-in-out infinite;
+}
