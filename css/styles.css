@@ -15,6 +15,7 @@
 @import "Screens/friends.css";
 @import "Screens/find.css";
 @import "Screens/more.css";
+@import "Screens/chat-room.css";
 
 body {
   height: 120vh;
