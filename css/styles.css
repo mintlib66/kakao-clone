@@ -2,21 +2,21 @@
 @import "variables.css";
 
 /* Components */
-@import "Components/status-bar.css";
-@import "Components/screen-header.css";
-@import "Components/nav-bar.css";
-@import "Components/user-component.css";
-@import "Components/badge.css";
-@import "Components/icon-rows.css";
-@import "Components/alt-screen-header.css";
-@import "Components/no-mobile.css";
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/nav-bar.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-rows.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /* Screens */
-@import "Screens/login.css";
-@import "Screens/friends.css";
-@import "Screens/find.css";
-@import "Screens/more.css";
-@import "Screens/chat-room.css";
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/chat-room.css";
 
 body {
   height: 120vh;
